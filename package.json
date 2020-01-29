@@ -5,7 +5,6 @@
   "scripts": {
     "clean": "rimraf output && rimraf .spago",
     "build": "spago build --purs-args '--censor-lib --strict'",
-    "postinstall": "spago install",
     "bundle": "mkdir -p bin && spago bundle-module -t bin/Codegen.js && spago bundle-module -m GetSchema -t bin/GetSchema.js",
     "test": "./runtests",
     "test-db": "dotenv spago test --purs-args '-m Test.GetSchema'"
