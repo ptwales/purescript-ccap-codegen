@@ -5,8 +5,8 @@ You can edit this file as you like.
 { name = "ccap-codegen"
 , dependencies =
     [ "argonaut-codecs"
-    , "console"
     , "boxes"
+    , "console"
     , "debug"
     , "effect"
     , "filterable"

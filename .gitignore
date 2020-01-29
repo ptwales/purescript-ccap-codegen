@@ -6,6 +6,7 @@
 /.psc-ide-port
 /.psci*
 /.pulp-cache/
+/bin/
 /node_modules/
 /output/
 /pursuit.json
