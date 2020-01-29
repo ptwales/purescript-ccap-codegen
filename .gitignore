@@ -11,5 +11,3 @@
 /pursuit.json
 /src/.webpack.js
 /test/generated/*
-package-lock.json
-yarn.lock
